@@ -1,0 +1,713 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     31849,        704]
+NotebookOptionsPosition[     31186,        675]
+NotebookOutlinePosition[     31540,        691]
+CellTagsIndexPosition[     31497,        688]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["\:81ea\:7531\:8fa9\:8bba\:5012\:8ba1\:65f6\:5de5\:5177", "Title",
+ CellChangeTimes->{{3.686649967303526*^9, 3.6866499913680897`*^9}, {
+   3.686651415180043*^9, 3.6866514172723823`*^9}, 3.6866530937139025`*^9}],
+
+Cell["\:4f5c\:8005: \:96ea\:661f ( snotaken@gmail.com )", "Text",
+ CellChangeTimes->{{3.686649999545018*^9, 3.6866500425315638`*^9}, {
+   3.686651402605174*^9, 3.6866514077862096`*^9}, 3.68665238963266*^9}],
+
+Cell["\:4e00\:5f00\:59cb\:7528\:7684\:8bbe\:8ba1\:662f2\:4e2a\:949f\:3002\
+\:53d1\:73b0\:8fd0\:884c\:8d77\:6765\:592a\:5361\:4e86\:ff0c\:5c31\:6539\:6210\
+\:4e86\:8fd9\:79cd\:7ea2\:5b57\:7684\:754c\:9762\:3002", "Text",
+ CellChangeTimes->{{3.686653001039237*^9, 3.686653060468836*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["\:754c\:9762\:ff1a", "Subchapter",
+ CellChangeTimes->{{3.686649951760605*^9, 3.6866499584463024`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\:81ea\:7531\:8fa9\:8bba\:5012\:8ba1\:65f6\:5668", "[", 
+  RowBox[{"35", ",", "35"}], "]"}]], "Input",
+ CellChangeTimes->{3.686652967580806*^9}],
+
+Cell[BoxData[
+ DynamicModuleBox[{$CellContext`\:65b9$$ = {1, 
+  2}, $CellContext`\:6b63\:65b9$$ = 1, $CellContext`\:53cd\:65b9$$ = 
+  2, $CellContext`\:5269\:4f59\:65f6\:95f4$$ = {
+   Quantity[35, "Seconds"], 
+   Quantity[35, "Seconds"]}, $CellContext`\:7ed3\:675f\:65f6\:95f4$$ = {
+   DateObject[{2016, 10, 28}, 
+    TimeObject[{22, 16, 42.98718786239624}, TimeZone -> 8.], TimeZone -> 8.], 
+   DateObject[{2016, 10, 28}, 
+    TimeObject[{22, 16, 42.98718786239624}, TimeZone -> 8.], TimeZone -> 
+    8.]}, $CellContext`\:949f\:8868\:65f6\:95f4$$, $CellContext`\:63d0\:793a\
+\:7ed3\:675f$$ = {False, False}, $CellContext`\:63d0\:793a30\:79d2$$ = {
+  False, False}, $CellContext`\:5355\:65b9\:8ba1\:65f6$$, \
+$CellContext`setup$$, $CellContext`run$$, $CellContext`\:5237\:65b0\:95f4\
+\:9694$$ = {
+   DirectedInfinity[1], 
+   DirectedInfinity[
+   1]}, $CellContext`\:949f$$, $CellContext`\:5f53\:524d\:65b9$$ = 2}, 
+  TemplateBox[{
+   ButtonBox[
+    "\"\:5f00\:59cb\:81ea\:7531\:8fa9\:8bba\"", 
+     ButtonFunction :> $CellContext`run$$[], Background -> 
+     RGBColor[0.87, 0.94, 1], Appearance -> Automatic, Evaluator -> Automatic,
+      Method -> "Preemptive"],TagBox[
+     GridBox[{{
+        ButtonBox[
+         TemplateBox[{
+           DynamicBox[
+            ToBoxes[
+             
+             Refresh[$CellContext`\:5f53\:524d\:65b9$$ = $CellContext`\:6b63\
+\:65b9$$; 
+              If[Part[$CellContext`\:5269\:4f59\:65f6\:95f4$$, $CellContext`\
+\:5f53\:524d\:65b9$$] >= Quantity[0, "Seconds"], If[
+                  And[
+                   Not[
+                    
+                    Part[$CellContext`\:63d0\:793a30\:79d2$$, $CellContext`\
+\:5f53\:524d\:65b9$$]], $CellContext`\:5269\:4f59\:65f6\:95f4$$ < 
+                   Quantity[30, "Seconds"]], 
+                  Part[$CellContext`\:63d0\:793a30\:79d2$$, $CellContext`\
+\:5f53\:524d\:65b9$$] = True; EmitSound[
+                    Sound[{
+                    SoundNote["G"]}, 1]]]; $CellContext`\:949f$$[
+                 TimeObject[{0, 0, 0}] + 
+                  
+                  Part[$CellContext`\:5269\:4f59\:65f6\:95f4$$, $CellContext`\
+\:5f53\:524d\:65b9$$]], If[
+                  Not[
+                   
+                   Part[$CellContext`\:63d0\:793a\:7ed3\:675f$$, \
+$CellContext`\:5f53\:524d\:65b9$$]], 
+                  Part[$CellContext`\:63d0\:793a\:7ed3\:675f$$, $CellContext`\
+\:5f53\:524d\:65b9$$] = True; EmitSound[
+                    Sound[{
+                    SoundNote["C5"], 
+                    SoundNote["G"], 
+                    SoundNote["C"]}, 1]]]; Labeled[
+                  ClockGauge[{0, 0, 0}, PerformanceGoal -> "Speed"], 
+                  "\:65f6\:95f4\:5230\:ff01"]], UpdateInterval -> 
+              Part[$CellContext`\:5237\:65b0\:95f4\:9694$$, $CellContext`\
+\:5f53\:524d\:65b9$$]], StandardForm]], 
+           StyleBox["\"\:6b63\:65b9\"", 
+            RGBColor[1, 0, 0], "SubSection", StripOnInput -> False]}, 
+          "Labeled", DisplayFunction -> (GridBox[{{
+              TagBox[
+               ItemBox[
+                PaneBox[
+                 TagBox[#, "SkipImageSizeLevel"], 
+                 Alignment -> {Center, Baseline}, BaselinePosition -> 
+                 Baseline], DefaultBaseStyle -> "Labeled"], 
+               "SkipImageSizeLevel"]}, {
+              ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
+            GridBoxAlignment -> {
+             "Columns" -> {{Center}}, "Rows" -> {{Center}}}, AutoDelete -> 
+            False, GridBoxItemSize -> {
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+            BaselinePosition -> {1, 1}]& ), 
+          InterpretationFunction -> (RowBox[{"Labeled", "[", 
+             RowBox[{#, ",", #2}], "]"}]& )], 
+         ButtonFunction :> \
+$CellContext`\:5355\:65b9\:8ba1\:65f6$$[$CellContext`\:6b63\:65b9$$], 
+         Background -> GrayLevel[1], Appearance -> Automatic, Evaluator -> 
+         Automatic, Method -> "Preemptive"], 
+        ButtonBox[
+         TemplateBox[{
+           DynamicBox[
+            ToBoxes[
+             
+             Refresh[$CellContext`\:5f53\:524d\:65b9$$ = $CellContext`\:53cd\
+\:65b9$$; 
+              If[Part[$CellContext`\:5269\:4f59\:65f6\:95f4$$, $CellContext`\
+\:5f53\:524d\:65b9$$] >= Quantity[0, "Seconds"], If[
+                  And[
+                   Not[
+                    
+                    Part[$CellContext`\:63d0\:793a30\:79d2$$, $CellContext`\
+\:5f53\:524d\:65b9$$]], $CellContext`\:5269\:4f59\:65f6\:95f4$$ < 
+                   Quantity[30, "Seconds"]], 
+                  Part[$CellContext`\:63d0\:793a30\:79d2$$, $CellContext`\
+\:5f53\:524d\:65b9$$] = True; EmitSound[
+                    Sound[{
+                    SoundNote["G"]}, 1]]]; $CellContext`\:949f$$[
+                 TimeObject[{0, 0, 0}] + 
+                  Part[$CellContext`\:5269\:4f59\:65f6\:95f4$$, $CellContext`\
+\:5f53\:524d\:65b9$$]], If[
+                  Not[
+                   
+                   Part[$CellContext`\:63d0\:793a\:7ed3\:675f$$, \
+$CellContext`\:5f53\:524d\:65b9$$]], 
+                  Part[$CellContext`\:63d0\:793a\:7ed3\:675f$$, $CellContext`\
+\:5f53\:524d\:65b9$$] = True; EmitSound[
+                    Sound[{
+                    SoundNote["C5"], 
+                    SoundNote["G"], 
+                    SoundNote["C"]}, 1]]]; Labeled[
+                  ClockGauge[{0, 0, 0}, PerformanceGoal -> "Speed"], 
+                  "\:65f6\:95f4\:5230\:ff01"]], UpdateInterval -> 
+              Part[$CellContext`\:5237\:65b0\:95f4\:9694$$, $CellContext`\
+\:5f53\:524d\:65b9$$]], StandardForm]], 
+           StyleBox["\"\:53cd\:65b9\"", 
+            RGBColor[1, 0, 0], "SubSection", StripOnInput -> False]}, 
+          "Labeled", DisplayFunction -> (GridBox[{{
+              TagBox[
+               ItemBox[
+                PaneBox[
+                 TagBox[#, "SkipImageSizeLevel"], 
+                 Alignment -> {Center, Baseline}, BaselinePosition -> 
+                 Baseline], DefaultBaseStyle -> "Labeled"], 
+               "SkipImageSizeLevel"]}, {
+              ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
+            GridBoxAlignment -> {
+             "Columns" -> {{Center}}, "Rows" -> {{Center}}}, AutoDelete -> 
+            False, GridBoxItemSize -> {
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+            BaselinePosition -> {1, 1}]& ), 
+          InterpretationFunction -> (RowBox[{"Labeled", "[", 
+             RowBox[{#, ",", #2}], "]"}]& )], 
+         ButtonFunction :> \
+$CellContext`\:5355\:65b9\:8ba1\:65f6$$[$CellContext`\:53cd\:65b9$$], 
+         Background -> GrayLevel[1], Appearance -> Automatic, Evaluator -> 
+         Automatic, Method -> "Preemptive"]}}, RowSpacings -> 1, 
+      ColumnSpacings -> 3, RowAlignments -> Baseline, ColumnAlignments -> 
+      Left], 
+     Function[BoxForm`e$, 
+      TableForm[BoxForm`e$]]]},
+   "Labeled",
+   DisplayFunction->(GridBox[{{
+       TagBox[
+        ItemBox[
+         PaneBox[
+          TagBox[#, "SkipImageSizeLevel"], Alignment -> {Center, Baseline}, 
+          BaselinePosition -> Baseline], DefaultBaseStyle -> "Labeled"], 
+        "SkipImageSizeLevel"]}, {
+       ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
+     GridBoxAlignment -> {"Columns" -> {{Center}}, "Rows" -> {{Center}}}, 
+     AutoDelete -> False, 
+     GridBoxItemSize -> {"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+      BaselinePosition -> {1, 1}]& ),
+   InterpretationFunction->(RowBox[{"Labeled", "[", 
+      RowBox[{#, ",", #2}], "]"}]& )],
+  DynamicModuleValues:>{{
+    DownValues[$CellContext`\:949f\:8868\:65f6\:95f4$$] = {HoldPattern[
+         $CellContext`\:949f\:8868\:65f6\:95f4$$[
+          Pattern[$CellContext`\:5f53\:524d\:65b9$, 
+           Blank[]]]] :> 
+       TimeObject[{0, 0, 0}] + 
+        Part[$CellContext`\:5269\:4f59\:65f6\:95f4$$, $CellContext`\:5f53\
+\:524d\:65b9$]}}, {
+    DownValues[$CellContext`\:5355\:65b9\:8ba1\:65f6$$] = {HoldPattern[
+         $CellContext`\:5355\:65b9\:8ba1\:65f6$$[
+          Pattern[$CellContext`\:8ba1\:65f6\:65b9$, 
+           Blank[]]]] :> ($CellContext`\:7ed3\:675f\:65f6\:95f4$$ = 
+         Now + $CellContext`\:5269\:4f59\:65f6\:95f4$$; 
+        Part[$CellContext`\:5269\:4f59\:65f6\:95f4$$, $CellContext`\:8ba1\
+\:65f6\:65b9$] := DateDifference[Now, 
+           
+           Part[$CellContext`\:7ed3\:675f\:65f6\:95f4$$, $CellContext`\:8ba1\
+\:65f6\:65b9$]]; 
+        Part[$CellContext`\:5237\:65b0\:95f4\:9694$$, $CellContext`\:8ba1\
+\:65f6\:65b9$] = 1; Do[
+          
+          If[$CellContext`\:8ba1\:65f6\:65b9$ != $CellContext`\:5f53\:524d\
+\:65b9$$, 
+           Part[$CellContext`\:7ed3\:675f\:65f6\:95f4$$, $CellContext`\:5f53\
+\:524d\:65b9$$] = 
+            Now + Part[$CellContext`\:5269\:4f59\:65f6\:95f4$$, $CellContext`\
+\:5f53\:524d\:65b9$$]; 
+           Part[$CellContext`\:5269\:4f59\:65f6\:95f4$$, $CellContext`\:5f53\
+\:524d\:65b9$$] = 
+            Part[$CellContext`\:5269\:4f59\:65f6\:95f4$$, $CellContext`\:5f53\
+\:524d\:65b9$$]; 
+           Part[$CellContext`\:5237\:65b0\:95f4\:9694$$, $CellContext`\:5f53\
+\:524d\:65b9$$] = Infinity; 
+           Null], {$CellContext`\:5f53\:524d\:65b9$$, $CellContext`\:65b9$$}]; 
+        Null)}}, {DownValues[$CellContext`setup$$] = {HoldPattern[
+         $CellContext`setup$$[]] :> ($CellContext`\:5269\:4f59\:65f6\:95f4$$ = 
+         Map[If[
+            QuantityQ[#], #, 
+            Quantity[#, "Seconds"]]& , {35, 
+           35}]; $CellContext`\:7ed3\:675f\:65f6\:95f4$$ = 
+         Now + $CellContext`\:5269\:4f59\:65f6\:95f4$$ + 
+          Quantity[0.1, "Seconds"]; $CellContext`\:63d0\:793a30\:79d2$$ = {
+          False, False}; $CellContext`\:63d0\:793a\:7ed3\:675f$$ = {
+          False, False}; $CellContext`\:5237\:65b0\:95f4\:9694$$ = {
+          Infinity, Infinity}; Null)}}, {
+    DownValues[$CellContext`run$$] = {HoldPattern[
+         $CellContext`run$$[]] :> (EmitSound[
+          Sound[{
+            SoundNote["C"], 
+            SoundNote["G"], 
+            SoundNote["C5"]}, 1]]; Pause[1]; $CellContext`setup$$[]; 
+        Scan[(Part[$CellContext`\:5269\:4f59\:65f6\:95f4$$, #] := 
+           DateDifference[Now, 
+             
+             Part[$CellContext`\:7ed3\:675f\:65f6\:95f4$$, #]])& , \
+$CellContext`\:65b9$$] $CellContext`\:5355\:65b9\:8ba1\:65f6$$[$CellContext`\
+\:6b63\:65b9$$]; Null)}}, {DownValues[$CellContext`\:949f$$] = {HoldPattern[
+         $CellContext`\:949f$$[
+          Pattern[$CellContext`\:65f6\:95f4, 
+           Blank[]]]] :> (Style[#, Red, "Section"]& )[
+         DateString[$CellContext`\:65f6\:95f4]]}}}]], "Output",
+ CellChangeTimes->{3.6866529682828665`*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\:4ee3\:7801 \:ff1a", "Subchapter",
+ CellChangeTimes->{{3.686649938189208*^9, 3.686649942568519*^9}}],
+
+Cell[BoxData[
+ RowBox[{"\n", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"\:81ea\:7531\:8fa9\:8bba\:5012\:8ba1\:65f6\:5668", "[", 
+      RowBox[{
+      "\:6b63\:65b9\:5012\:8ba1\:65f6_", ",", " ", 
+       "\:53cd\:65b9\:5012\:8ba1\:65f6_"}], "]"}], " ", ":=", " ", 
+     RowBox[{"DynamicModule", "[", "\n", "   ", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\:65b9", ",", " ", "\:6b63\:65b9", ",", " ", "\:53cd\:65b9", ",", 
+         " ", "\:5269\:4f59\:65f6\:95f4", ",", " ", 
+         "\:7ed3\:675f\:65f6\:95f4", ",", " ", "\:949f\:8868\:65f6\:95f4", 
+         ",", " ", "\:63d0\:793a\:7ed3\:675f", ",", " ", 
+         "\:63d0\:793a30\:79d2", ",", " ", "\:5355\:65b9\:8ba1\:65f6", ",", 
+         " ", "setup", ",", " ", "run", ",", " ", "\:5237\:65b0\:95f4\:9694", 
+         ",", " ", "\:949f", ",", " ", "\:5f53\:524d\:65b9"}], "}"}], ",", 
+       "\n", "   ", 
+       RowBox[{
+        RowBox[{"\:6b63\:65b9", " ", "=", " ", "1"}], ";", "\n", "   ", 
+        RowBox[{"\:53cd\:65b9", " ", "=", " ", "2"}], ";", "\n", "   ", 
+        RowBox[{"\:65b9", " ", "=", " ", 
+         RowBox[{"{", 
+          RowBox[{"\:6b63\:65b9", ",", " ", "\:53cd\:65b9"}], "}"}]}], ";", 
+        "\n", "   ", 
+        RowBox[{
+         RowBox[{"setup", "[", "]"}], " ", ":=", " ", 
+         RowBox[{"(", "\n", "     ", "\n", "     ", 
+          RowBox[{
+           RowBox[{"\:5269\:4f59\:65f6\:95f4", " ", "=", " ", 
+            RowBox[{
+             RowBox[{
+              RowBox[{"If", "[", 
+               RowBox[{
+                RowBox[{"QuantityQ", "[", "#", "]"}], ",", " ", "#", ",", " ", 
+                RowBox[{"Quantity", "[", 
+                 RowBox[{"#", ",", " ", "\"\<Seconds\>\""}], "]"}]}], "]"}], 
+              " ", "&"}], " ", "/@", " ", 
+             RowBox[{"{", 
+              RowBox[{
+              "\:6b63\:65b9\:5012\:8ba1\:65f6", ",", " ", 
+               "\:53cd\:65b9\:5012\:8ba1\:65f6"}], "}"}]}]}], ";", "\n", 
+           "     ", 
+           RowBox[{"\:7ed3\:675f\:65f6\:95f4", " ", "=", " ", 
+            RowBox[{
+            "Now", " ", "+", " ", "\:5269\:4f59\:65f6\:95f4", " ", "+", " ", 
+             RowBox[{"Quantity", "[", 
+              RowBox[{"0.1", ",", " ", "\"\<Seconds\>\""}], "]"}]}]}], ";", 
+           "\n", "     ", 
+           RowBox[{"\:63d0\:793a30\:79d2", " ", "=", " ", 
+            RowBox[{"{", 
+             RowBox[{"False", ",", " ", "False"}], "}"}]}], ";", "\n", 
+           "     ", 
+           RowBox[{"\:63d0\:793a\:7ed3\:675f", " ", "=", " ", 
+            RowBox[{"{", 
+             RowBox[{"False", ",", " ", "False"}], "}"}]}], ";", "\n", 
+           "     ", 
+           RowBox[{"\:5237\:65b0\:95f4\:9694", " ", "=", " ", 
+            RowBox[{"{", 
+             RowBox[{"Infinity", ",", " ", "Infinity"}], "}"}]}], ";"}], "\n",
+           "     ", ")"}]}], ";", "\n", "   ", "\n", "   ", 
+        RowBox[{
+         RowBox[{"run", "[", "]"}], " ", ":=", " ", 
+         RowBox[{"(", "\n", "     ", 
+          RowBox[{
+           RowBox[{"EmitSound", "[", 
+            RowBox[{"Sound", "[", 
+             RowBox[{
+              RowBox[{"{", 
+               RowBox[{
+                RowBox[{"SoundNote", "[", "\"\<C\>\"", "]"}], ",", " ", 
+                RowBox[{"SoundNote", "[", "\"\<G\>\"", "]"}], ",", " ", 
+                RowBox[{"SoundNote", "[", "\"\<C5\>\"", "]"}]}], "}"}], ",", 
+              " ", "1"}], "]"}], "]"}], ";", "\n", "     ", 
+           RowBox[{"Pause", "[", "1", "]"}], ";", "\n", "     ", 
+           RowBox[{"setup", "[", "]"}], ";", "\n", "     ", 
+           RowBox[{
+            RowBox[{"Scan", "[", 
+             RowBox[{
+              RowBox[{
+               RowBox[{"(", 
+                RowBox[{
+                 RowBox[{"\:5269\:4f59\:65f6\:95f4", "[", 
+                  RowBox[{"[", "#", "]"}], "]"}], " ", ":=", " ", 
+                 RowBox[{"DateDifference", "[", 
+                  RowBox[{"Now", ",", " ", 
+                   RowBox[{"\:7ed3\:675f\:65f6\:95f4", "[", 
+                    RowBox[{"[", "#", "]"}], "]"}]}], "]"}]}], ")"}], " ", 
+               "&"}], ",", " ", "\:65b9"}], "]"}], "\n", "      ", "\n", 
+            "      ", 
+            RowBox[{"\:5355\:65b9\:8ba1\:65f6", "[", "\:6b63\:65b9", "]"}]}], 
+           ";"}], "\n", "     ", ")"}]}], ";", "\n", "   ", "\n", "   ", 
+        RowBox[{
+         RowBox[{
+         "\:5355\:65b9\:8ba1\:65f6", "[", "\:8ba1\:65f6\:65b9_", "]"}], " ", ":=",
+          "\n", "    ", 
+         RowBox[{"(", "\n", "     ", "\n", "     ", 
+          RowBox[{
+           RowBox[{"\:7ed3\:675f\:65f6\:95f4", " ", "=", " ", 
+            RowBox[{"Now", " ", "+", " ", "\:5269\:4f59\:65f6\:95f4"}]}], ";",
+            "\n", "     ", 
+           RowBox[{
+            RowBox[{"\:5269\:4f59\:65f6\:95f4", "[", 
+             RowBox[{"[", "\:8ba1\:65f6\:65b9", "]"}], "]"}], " ", ":=", " ", 
+            RowBox[{"DateDifference", "[", 
+             RowBox[{"Now", ",", " ", 
+              RowBox[{"\:7ed3\:675f\:65f6\:95f4", "[", 
+               RowBox[{"[", "\:8ba1\:65f6\:65b9", "]"}], "]"}]}], "]"}]}], 
+           ";", "\n", "     ", 
+           RowBox[{
+            RowBox[{"\:5237\:65b0\:95f4\:9694", "[", 
+             RowBox[{"[", "\:8ba1\:65f6\:65b9", "]"}], "]"}], " ", "=", " ", 
+            "1"}], ";", "\n", "     ", "\n", "     ", 
+           RowBox[{"Do", "[", 
+            RowBox[{
+             RowBox[{"If", "[", 
+              RowBox[{
+               RowBox[{
+               "\:8ba1\:65f6\:65b9", " ", "!=", " ", "\:5f53\:524d\:65b9"}], 
+               ",", "\n", "       ", "\n", "       ", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"\:7ed3\:675f\:65f6\:95f4", "[", 
+                  RowBox[{"[", "\:5f53\:524d\:65b9", "]"}], "]"}], " ", "=", 
+                 " ", 
+                 RowBox[{"Now", " ", "+", " ", 
+                  RowBox[{"(", 
+                   RowBox[{"\:5269\:4f59\:65f6\:95f4", "[", 
+                    RowBox[{"[", "\:5f53\:524d\:65b9", "]"}], "]"}], 
+                   ")"}]}]}], ";", "\n", "       ", 
+                RowBox[{
+                 RowBox[{"\:5269\:4f59\:65f6\:95f4", "[", 
+                  RowBox[{"[", "\:5f53\:524d\:65b9", "]"}], "]"}], " ", "=", 
+                 " ", 
+                 RowBox[{"\:5269\:4f59\:65f6\:95f4", "[", 
+                  RowBox[{"[", "\:5f53\:524d\:65b9", "]"}], "]"}]}], ";", 
+                "\n", "       ", 
+                RowBox[{
+                 RowBox[{"\:5237\:65b0\:95f4\:9694", "[", 
+                  RowBox[{"[", "\:5f53\:524d\:65b9", "]"}], "]"}], " ", "=", 
+                 " ", "Infinity"}], ";"}]}], "\n", "       ", "]"}], ",", " ", 
+             RowBox[{"{", 
+              RowBox[{"\:5f53\:524d\:65b9", ",", " ", "\:65b9"}], "}"}]}], 
+            "]"}], ";"}], "\n", "     ", ")"}]}], ";", "\n", "   ", 
+        RowBox[{"setup", "[", "]"}], ";", "\n", "   ", "\n", "   ", 
+        RowBox[{
+         RowBox[{
+         "\:949f\:8868\:65f6\:95f4", "[", "\:5f53\:524d\:65b9_", "]"}], " ", ":=",
+          " ", 
+         RowBox[{
+          RowBox[{"TimeObject", "[", 
+           RowBox[{"{", 
+            RowBox[{"0", ",", " ", "0", ",", " ", "0"}], "}"}], "]"}], " ", 
+          "+", " ", 
+          RowBox[{"\:5269\:4f59\:65f6\:95f4", "[", 
+           RowBox[{"[", "\:5f53\:524d\:65b9", "]"}], "]"}]}]}], ";", "\n", 
+        "   ", 
+        RowBox[{
+         RowBox[{"\:949f", "[", "\:65f6\:95f4_", "]"}], " ", ":=", 
+         RowBox[{"(*", 
+          RowBox[{
+           RowBox[{"ClockGauge", "[", 
+            RowBox[{"\:65f6\:95f4", ",", 
+             RowBox[{"PerformanceGoal", "\[Rule]", "\"\<Speed\>\""}], ",", 
+             RowBox[{"Background", "\[Rule]", "White"}], ",", 
+             RowBox[{"GaugeStyle", "\[Rule]", 
+              RowBox[{"{", 
+               RowBox[{"White", ",", "Automatic", ",", "Automatic"}], "}"}]}],
+              ",", 
+             RowBox[{"GaugeFrameSize", "\[Rule]", "None"}]}], "]"}], "~", 
+           "\n", "    ", "Labeled", "~"}], "*)"}], 
+         RowBox[{
+          RowBox[{"DateString", "[", "\:65f6\:95f4", "]"}], " ", "//", " ", 
+          RowBox[{
+           RowBox[{"Style", "[", 
+            RowBox[{"#", ",", " ", "Red", ",", " ", "\"\<Section\>\""}], 
+            "]"}], " ", "&"}]}]}], ";", "\n", "   ", 
+        RowBox[{
+         RowBox[{"Button", "[", 
+          RowBox[{"\"\<\:5f00\:59cb\:81ea\:7531\:8fa9\:8bba\>\"", ",", " ", 
+           RowBox[{"run", "[", "]"}], ",", " ", 
+           RowBox[{"Background", " ", "->", " ", "LightBlue"}]}], "]"}], "~", 
+         "Labeled", "~", 
+         RowBox[{"(", "\n", "     ", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"Button", "[", "\n", "         ", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"Dynamic", "[", 
+                  RowBox[{"Refresh", "[", "\n", "            ", 
+                   RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    "\:5f53\:524d\:65b9", " ", "=", " ", "\:6b63\:65b9"}], 
+                    ";", "\n", "            ", 
+                    RowBox[{"If", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"\:5269\:4f59\:65f6\:95f4", "[", 
+                    RowBox[{"[", "\:5f53\:524d\:65b9", "]"}], "]"}], " ", ">=",
+                     " ", 
+                    RowBox[{"Quantity", "[", 
+                    RowBox[{"0", ",", " ", "\"\<Seconds\>\""}], "]"}]}], ",", 
+                    "\n", "             ", "\n", "             ", 
+                    RowBox[{
+                    RowBox[{"If", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{"!", " ", 
+                    RowBox[{"\:63d0\:793a30\:79d2", "[", 
+                    RowBox[{"[", "\:5f53\:524d\:65b9", "]"}], "]"}]}], ")"}], 
+                    " ", "&&", " ", 
+                    RowBox[{"(", 
+                    RowBox[{"\:5269\:4f59\:65f6\:95f4", " ", "<", " ", 
+                    RowBox[{"Quantity", "[", 
+                    RowBox[{"30", ",", " ", "\"\<Seconds\>\""}], "]"}]}], 
+                    ")"}]}], ",", "\n", "              ", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"\:63d0\:793a30\:79d2", "[", 
+                    RowBox[{"[", "\:5f53\:524d\:65b9", "]"}], "]"}], " ", "=",
+                     " ", "True"}], ";", " ", 
+                    RowBox[{"EmitSound", "[", 
+                    RowBox[{"Sound", "[", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"SoundNote", "[", "\"\<G\>\"", "]"}], "}"}], ",", 
+                    " ", "1"}], "]"}], "]"}]}]}], "]"}], ";", "\n", 
+                    "             ", "\n", "             ", 
+                    RowBox[{"\:949f", "[", 
+                    RowBox[{
+                    RowBox[{"TimeObject", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"0", ",", " ", "0", ",", " ", "0"}], "}"}], "]"}],
+                     " ", "+", " ", 
+                    RowBox[{"\:5269\:4f59\:65f6\:95f4", "[", 
+                    RowBox[{"[", "\:5f53\:524d\:65b9", "]"}], "]"}]}], 
+                    "]"}]}], ",", "\n", "             ", 
+                    RowBox[{
+                    RowBox[{"If", "[", 
+                    RowBox[{
+                    RowBox[{"!", " ", 
+                    RowBox[{"\:63d0\:793a\:7ed3\:675f", "[", 
+                    RowBox[{"[", "\:5f53\:524d\:65b9", "]"}], "]"}]}], ",", 
+                    "\n", "              ", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"\:63d0\:793a\:7ed3\:675f", "[", 
+                    RowBox[{"[", "\:5f53\:524d\:65b9", "]"}], "]"}], " ", "=",
+                     " ", "True"}], ";", " ", 
+                    RowBox[{"EmitSound", "[", 
+                    RowBox[{"Sound", "[", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"SoundNote", "[", "\"\<C5\>\"", "]"}], ",", " ", 
+                    RowBox[{"SoundNote", "[", "\"\<G\>\"", "]"}], ",", " ", 
+                    RowBox[{"SoundNote", "[", "\"\<C\>\"", "]"}]}], "}"}], 
+                    ",", " ", "1"}], "]"}], "]"}]}]}], "]"}], ";", "\n", 
+                    "             ", 
+                    RowBox[{
+                    RowBox[{"ClockGauge", "[", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"0", ",", " ", "0", ",", " ", "0"}], "}"}], ",", 
+                    " ", 
+                    RowBox[{
+                    "PerformanceGoal", " ", "->", " ", "\"\<Speed\>\""}]}], 
+                    "]"}], "~", "Labeled", "~", 
+                    "\"\<\:65f6\:95f4\:5230\:ff01\>\""}]}]}], "\n", 
+                    "             ", "]"}]}], ",", " ", 
+                    RowBox[{"UpdateInterval", " ", "->", " ", 
+                    RowBox[{"\:5237\:65b0\:95f4\:9694", "[", 
+                    RowBox[{"[", "\:5f53\:524d\:65b9", "]"}], "]"}]}]}], " ", 
+                   "]"}], "]"}], "~", "Labeled", "~", 
+                 RowBox[{"Style", "[", 
+                  RowBox[{
+                  "\"\<\:6b63\:65b9\>\"", ",", " ", "Red", ",", " ", 
+                   "\"\<SubSection\>\""}], "]"}]}], ",", "\n", "         ", 
+                RowBox[{
+                "\:5355\:65b9\:8ba1\:65f6", "[", "\:6b63\:65b9", "]"}], ",", 
+                "\n", "         ", 
+                RowBox[{"Background", " ", "->", " ", "White"}]}], "\n", 
+               "         ", "]"}], ",", "\n", "        ", 
+              RowBox[{"Button", "[", "\n", "         ", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"Dynamic", "[", 
+                  RowBox[{"Refresh", "[", "\n", "            ", 
+                   RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    "\:5f53\:524d\:65b9", " ", "=", " ", "\:53cd\:65b9"}], 
+                    ";", "\n", "            ", 
+                    RowBox[{"If", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"\:5269\:4f59\:65f6\:95f4", "[", 
+                    RowBox[{"[", "\:5f53\:524d\:65b9", "]"}], "]"}], " ", ">=",
+                     " ", 
+                    RowBox[{"Quantity", "[", 
+                    RowBox[{"0", ",", " ", "\"\<Seconds\>\""}], "]"}]}], ",", 
+                    "\n", "             ", "\n", "             ", 
+                    RowBox[{
+                    RowBox[{"If", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{"!", " ", 
+                    RowBox[{"\:63d0\:793a30\:79d2", "[", 
+                    RowBox[{"[", "\:5f53\:524d\:65b9", "]"}], "]"}]}], ")"}], 
+                    " ", "&&", " ", 
+                    RowBox[{"(", 
+                    RowBox[{"\:5269\:4f59\:65f6\:95f4", " ", "<", " ", 
+                    RowBox[{"Quantity", "[", 
+                    RowBox[{"30", ",", " ", "\"\<Seconds\>\""}], "]"}]}], 
+                    ")"}]}], ",", "\n", "              ", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"\:63d0\:793a30\:79d2", "[", 
+                    RowBox[{"[", "\:5f53\:524d\:65b9", "]"}], "]"}], " ", "=",
+                     " ", "True"}], ";", " ", 
+                    RowBox[{"EmitSound", "[", 
+                    RowBox[{"Sound", "[", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"SoundNote", "[", "\"\<G\>\"", "]"}], "}"}], ",", 
+                    " ", "1"}], "]"}], "]"}]}]}], "]"}], ";", "\n", 
+                    "             ", "\n", "             ", 
+                    RowBox[{"\:949f", "[", 
+                    RowBox[{
+                    RowBox[{"TimeObject", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"0", ",", " ", "0", ",", " ", "0"}], "}"}], "]"}],
+                     " ", "+", " ", 
+                    RowBox[{"\:5269\:4f59\:65f6\:95f4", "[", 
+                    RowBox[{"[", "\:5f53\:524d\:65b9", "]"}], "]"}]}], 
+                    "]"}]}], ",", "\n", "             ", 
+                    RowBox[{
+                    RowBox[{"If", "[", 
+                    RowBox[{
+                    RowBox[{"!", " ", 
+                    RowBox[{"\:63d0\:793a\:7ed3\:675f", "[", 
+                    RowBox[{"[", "\:5f53\:524d\:65b9", "]"}], "]"}]}], ",", 
+                    "\n", "              ", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"\:63d0\:793a\:7ed3\:675f", "[", 
+                    RowBox[{"[", "\:5f53\:524d\:65b9", "]"}], "]"}], " ", "=",
+                     " ", "True"}], ";", " ", 
+                    RowBox[{"EmitSound", "[", 
+                    RowBox[{"Sound", "[", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"SoundNote", "[", "\"\<C5\>\"", "]"}], ",", " ", 
+                    RowBox[{"SoundNote", "[", "\"\<G\>\"", "]"}], ",", " ", 
+                    RowBox[{"SoundNote", "[", "\"\<C\>\"", "]"}]}], "}"}], 
+                    ",", " ", "1"}], "]"}], "]"}]}]}], "]"}], ";", "\n", 
+                    "             ", "\n", "             ", 
+                    RowBox[{
+                    RowBox[{"ClockGauge", "[", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"0", ",", " ", "0", ",", " ", "0"}], "}"}], ",", 
+                    " ", 
+                    RowBox[{
+                    "PerformanceGoal", " ", "->", " ", "\"\<Speed\>\""}]}], 
+                    "]"}], "~", "Labeled", "~", 
+                    "\"\<\:65f6\:95f4\:5230\:ff01\>\""}]}]}], "\n", 
+                    "             ", "]"}]}], ",", " ", 
+                    RowBox[{"UpdateInterval", " ", "->", " ", 
+                    RowBox[{"\:5237\:65b0\:95f4\:9694", "[", 
+                    RowBox[{"[", "\:5f53\:524d\:65b9", "]"}], "]"}]}]}], " ", 
+                   "]"}], "]"}], "~", "Labeled", "~", 
+                 RowBox[{"Style", "[", 
+                  RowBox[{
+                  "\"\<\:53cd\:65b9\>\"", ",", " ", "Red", ",", " ", 
+                   "\"\<SubSection\>\""}], "]"}]}], ",", "\n", "         ", 
+                RowBox[{
+                "\:5355\:65b9\:8ba1\:65f6", "[", "\:53cd\:65b9", "]"}], ",", 
+                "\n", "         ", 
+                RowBox[{"Background", " ", "->", " ", "White"}]}], "\n", 
+               "         ", "]"}]}], "}"}], "}"}], " ", "//", " ", 
+           "TableForm"}], ")"}]}]}]}], "\n", "   ", "]"}]}], ";"}], 
+   "\n"}]}]], "Code",
+ CellChangeTimes->{{3.6866529516453047`*^9, 3.686652952049447*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1646, 822},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"10.2 for Microsoft Windows (64-bit) (2015\:5e747\:67087\
+\:65e5)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 215, 2, 101, "Title"],
+Cell[798, 26, 206, 2, 30, "Text"],
+Cell[1007, 30, 285, 3, 30, "Text"],
+Cell[CellGroupData[{
+Cell[1317, 37, 108, 1, 67, "Subchapter"],
+Cell[CellGroupData[{
+Cell[1450, 42, 168, 3, 31, "Input"],
+Cell[1621, 47, 10577, 222, 149, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12247, 275, 107, 1, 67, "Subchapter"],
+Cell[12357, 278, 18801, 393, 1729, "Code"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
