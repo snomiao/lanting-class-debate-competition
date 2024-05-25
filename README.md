@@ -7,3 +7,5 @@
 
 - [./第一届兰亭班辩论大赛.nb](./第一届兰亭班辩论大赛.nb)
   preview: [./debate-workflow.pdf](./debate-workflow.pdf)
+
+Run with at least Mathematica 8
